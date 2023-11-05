@@ -15,12 +15,12 @@ struct ContentView: View {
                 .frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 0, idealHeight: 100, maxHeight: .infinity, alignment: .center)
                 .ignoresSafeArea(.all)
             VStack{
-                Text("1101453     陳昭宏")
+                Text("1101639     江偉忠")
                     .font(.system(size: 35, weight: .bold))
                     .frame(width: 400, height: 20, alignment: .center)
                     .offset(x: 0, y: 100)
                 
-                Text("我是阿志 !")
+                Text(" 我是嘉義人 !")
                     .fontWeight(.heavy)
                     .lineSpacing(10)
                     .font(.system(size: 22))
