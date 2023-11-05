@@ -30,15 +30,15 @@ struct ContentView: View {
 struct Shelfview: View{
     var body: some View{
         VStack{
-            Spacer(minLength: 150)
-            Image("木板")
+            Spacer(minLength: 130)
+            Image("牆")
                 .resizable()
                 .frame(height: 300, alignment: .center)
                 .offset(y: 80)
-            Image("木板")
+            Image("牆")
                 .resizable()
                 .frame(height: 200, alignment: .center)
-            Image("木板")
+            Image("牆")
                 .resizable()
                 .frame(height: 200, alignment: .center)
         }
