@@ -23,7 +23,7 @@ struct ContentView: View {
                 Text(" 我是嘉義人 !")
                     .fontWeight(.heavy)
                     .lineSpacing(10)
-                    .font(.system(size: 22))
+                    .font(.system(size: 24))
                     .foregroundColor(.white)
                     .frame(width: 400, height: 200, alignment: .top)
                     .padding(.top, 20)
@@ -32,17 +32,17 @@ struct ContentView: View {
                     .offset(x: 0, y:90)
                     .multilineTextAlignment(.center)
                 
-                Image("Me")
+                Image("")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 400, height: 500, alignment: .trailing)
+                    .frame(width: 400, height: 400, alignment: .trailing)
                     
     
             }
-            Image(systemName: "graduationcap.fill")
+            Image(systemName: "")
                 .foregroundColor(.blue)
                 .font(.system(size: 120))
-                .position(x: 180, y: 400)
+                .position(x: 200, y: 400)
         }
     }
 }
