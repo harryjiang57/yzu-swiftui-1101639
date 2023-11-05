@@ -1,5 +1,5 @@
-[作業1](hw1.md)
+[HW1](hw1.md)
 
-[作業2](hw2.md)
+[HW2](hw2.md)
 
-[作業3](hw3.md)
+[HW3](hw3.md)
